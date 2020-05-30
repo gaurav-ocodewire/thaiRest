@@ -1,0 +1,107 @@
+.container-fluid {
+    position: relative;
+    font-family: Arial;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo{
+    position: absolute;
+    padding-left: 20px;
+    top: 10%;
+    padding-right: 20px;
+    /* right: 10%; */
+    left: 10%;
+    height: 40px;
+    border: solid 2px #e60808;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    color: #414141;
+  }
+  .login-btn{
+    position: absolute;
+    padding-left: 20px;
+    top: 10%;
+    padding-right: 20px;
+    right: 10%;
+    height: 40px;
+    border: solid 2px #e60808;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    color: #414141;
+  }
+  .order-btn{
+    padding-left: 20px;
+    top: 10%;
+    padding-right: 20px;
+    right: 10%;
+    height: 40px;
+    border: solid 2px #e60808;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+    color: #e60808;
+    width: 50%;
+  }
+  .text-block {
+    position: absolute;
+    margin-left: -10%;
+    /* bottom: 20px; */
+    width: 40%;
+    /* right: 20px; */
+    /* display: flex; */
+    color: white;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    top: 47%;
+    
+  }
+  
+  .food-slider{
+    height: 150px;
+    border: solid 1px #870202;
+    border-radius: 25px;
+    margin: 50px;
+
+  }
+
+  /* ///////////////// */
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }

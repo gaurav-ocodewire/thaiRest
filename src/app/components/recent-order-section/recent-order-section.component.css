@@ -1,0 +1,93 @@
+.container-recent-order{
+    background-image: url(./../../../assets/img/pin.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-block{
+    width: 100%;
+    margin-left: 0;
+     display: flex;
+     align-items: center;
+     text-decoration-skip-ink: 40%;
+     color: #373737;
+     height: 80px;
+     font-weight: 700;
+     font-size: 28px;
+     justify-content: center;
+}
+
+
+.order-btn{
+    padding-left: 20px;
+    top: 10%;
+    padding-right: 20px;
+    right: 10%;
+    height: 40px;
+    border: solid 2px #e60808;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    color: #e60808;
+    width: 111px;
+    font-weight: 600;
+    height: 31px;
+  }
+
+  .row{
+    height:auto;margin: 50px;
+  }
+
+  .row-col{
+    margin-bottom: 15px;
+  }
+
+  .title{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 16px;
+    color: #140f0f;
+    font-family: sans-serif;
+  }
+  .title .price{
+    font-weight: 800;    
+    font-weight: 800;
+    color: #1F1F1F;
+    font-size: 20px;
+  }
+  
+  .del-sec{
+    text-align: left;
+    margin: 10px;
+    background: #FEEF00;
+    color: #B73819;
+    width: 144px;
+    font-size: 17px;
+    height: 26px;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+  }
+
+  .del-sec img{
+    width: 19px;
+    height: 15px; 
+       margin-right: 5px;
+  }
+
+  .order-sec{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;align-items: center;
+  }
+
+  .icon-sec{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+  }

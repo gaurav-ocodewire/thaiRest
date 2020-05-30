@@ -1,0 +1,146 @@
+.header-container{
+    background-image: url('./../../../assets/img/banner.jpg');
+    height: 670px;
+}
+
+.logo-container{
+    padding-left: 150px;
+    margin-top: 50px;
+}
+.login-btn-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-right: 150px;
+    margin-top: 50px;
+}
+
+
+ 
+
+.logo{
+   width: 100px;
+  }
+  .login-btn{
+    width: 200px;
+    border: solid 2px #e60808;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 18px;
+    color:#1F1F1F
+  }
+  .login-btn i{
+    color: #e60808;
+    margin-right: 15px; 
+  }
+  .text-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+  }
+
+  .text-block  h4{
+    width: 40%;
+    font-size: 33px;
+    color: #353535;
+}
+
+
+
+.text-block  h4 span{
+ color: #e60808;
+}
+.example{
+   display: flex;
+   border: solid 2px grey;
+   height: 50px !important;
+   border-radius: 25px;
+   align-items: center;
+   justify-content: center;
+   padding: 25px;
+   background: ghostwhite;
+   padding-right: 5px;
+   box-shadow: 1px 2px 10px #a4a4a4;
+   width: 40%;
+}
+
+.example input[type=text] {
+ padding: 10px;
+ font-size: 17px;
+ /* border: 1px solid grey; */
+ float: left;
+ width: 80%;
+ background: none !important;
+ border: none  !important;
+ color: grey;
+ 
+
+}
+input:focus {
+ border: none !important;
+}
+
+.example button {
+ width: 18%;
+ color: orange;
+ font-size: 21px;
+     padding: 10px;
+ background: #e60808;
+ font-size: 17px;
+ border: 1px solid grey;
+ border-left: none;
+ cursor: pointer;
+ border-radius: 25px;
+}
+
+.example button:hover {
+ background: #c00404;
+}
+
+.example::after {
+ content: "";
+ clear: both;
+ display: table;
+}
+
+
+/* ////////////////Responsive Design ///////////////////*/
+
+@media screen and (max-width: 992px) {
+    .login-btn-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        padding: 0;
+    }
+
+    .logo-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        padding: 0;
+    }
+
+    .text-block {
+        margin-top: 100px;
+    }
+
+    .text-block  h4{
+        width: 70%;
+        font-size: 33px;
+        color: #353535;
+    }
+
+    .example{
+        width: 90%;
+    }
+
+    .example button{
+        width: 50% !important;
+
+    }
+  }
