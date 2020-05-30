@@ -105,3 +105,41 @@
   .card button:hover {
     opacity: 0.7;
   }
+
+
+  @media screen and (max-width: 992px) {
+    .how-itwork-sticker img{
+      width:100%;
+    }
+    .text-blockss{
+      width: 100% !important;
+        margin-left: 0 !important;
+    }
+  }
+
+  .container-recent-order{
+    background-image: url(./../../../assets/img/pin.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.how-itwork-sticker img{
+  width: 70%;
+}
+
+.text-blockss{
+  width: 49%;
+    margin-left: 52%;
+    display: flex;
+    align-items: center;
+    -webkit-text-decoration-skip-ink: 40%;
+    text-decoration-skip-ink: 40%;
+    color: #373737;
+    height: 80px;
+    font-weight: 700;
+    font-size: 28px;
+    justify-content: center;
+}
+  
+.red-bg app-our-restaurants .container-recent-order{
+  display: none !important;
+}

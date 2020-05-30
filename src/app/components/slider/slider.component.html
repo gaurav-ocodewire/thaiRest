@@ -1,2 +1,61 @@
 <!-- <app-header></app-header> -->
 <!-- <app-recent-order-section></app-recent-order-section> -->
+<!-- <app-our-restaurants></app-our-restaurants> -->
+
+
+<div id="imageCarousel" class="carousel slide" data-ride="carousel" style="padding-left:20%;padding-right: 20%;">
+    <ol class="carousel-indicators" style="bottom:-35%">
+      <li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#imageCarousel" data-slide-to="1"></li>
+      <li data-target="#imageCarousel" data-slide-to="2"></li>
+    </ol>
+   <div class="carousel-inner">
+     <div class="item active" *ngFor="let item of arr">
+       <div class="row" >
+         <div class="col-md-4 col-sm-12 col-xs-12">
+           <img src="https://1.bp.blogspot.com/-E8GdZQshD7I/WI1-yGMXseI/AAAAAAAACfs/ZndWplkyLpgVPO5IQ294pjxr9rq8YtqcwCLcB/s640/boot1.png" class="img-responsive" />
+         </div>
+         <div class="col-md-4 col-sm-12 col-xs-12">
+           <img src="https://2.bp.blogspot.com/-hmUAa7DH5N4/WI2KJqMdhrI/AAAAAAAACf8/huv-RB55G_QpCI-9G-iA0JrS1pqCswEogCLcB/s640/boot2.png" class="img-responsive" />
+         </div>
+         <div class="col-md-4 col-sm-12 col-xs-12">
+           <img src="https://2.bp.blogspot.com/-ZWboxYj_gz0/WInKMMQA_HI/AAAAAAAACe4/4ihHdvifuKYJNQElLULtivsCne9ZDbM3ACLcB/s640/di.png" class="img-responsive" />
+         </div>
+       </div>
+     </div>
+     <div class="item">
+       <div class="row">
+         <div class="col-md-4">
+           <img src="https://2.bp.blogspot.com/-hmUAa7DH5N4/WI2KJqMdhrI/AAAAAAAACf8/huv-RB55G_QpCI-9G-iA0JrS1pqCswEogCLcB/s640/boot2.png" class="img-responsive" />
+         </div>
+         <div class="col-md-4">
+           <img src="https://2.bp.blogspot.com/-ZWboxYj_gz0/WInKMMQA_HI/AAAAAAAACe4/4ihHdvifuKYJNQElLULtivsCne9ZDbM3ACLcB/s640/di.png" class="img-responsive" />
+         </div>
+         <div class="col-md-4">
+           <img src="https://1.bp.blogspot.com/-E8GdZQshD7I/WI1-yGMXseI/AAAAAAAACfs/ZndWplkyLpgVPO5IQ294pjxr9rq8YtqcwCLcB/s640/boot1.png" class="img-responsive" />
+         </div>
+       </div>
+     </div>
+     <div class="item">
+       <div class="row">
+         <div class="col-md-4">
+           <img src="https://1.bp.blogspot.com/-E8GdZQshD7I/WI1-yGMXseI/AAAAAAAACfs/ZndWplkyLpgVPO5IQ294pjxr9rq8YtqcwCLcB/s640/boot2.png" class="img-responsive" />
+         </div>
+         <div class="col-md-4">
+           <img src="https://1.bp.blogspot.com/-E8GdZQshD7I/WI1-yGMXseI/AAAAAAAACfs/ZndWplkyLpgVPO5IQ294pjxr9rq8YtqcwCLcB/s640/boot1.png" class="img-responsive" />
+         </div>
+         <div class="col-md-4">
+           <img src="https://2.bp.blogspot.com/-ZWboxYj_gz0/WInKMMQA_HI/AAAAAAAACe4/4ihHdvifuKYJNQElLULtivsCne9ZDbM3ACLcB/s640/di.png" class="img-responsive" />
+         </div>
+       </div>
+     </div>
+    </div>
+    <a class="left carousel-control" href="#imageCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      
+      </a>
+      <a class="right carousel-control" href="#imageCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        
+      </a>
+   </div>

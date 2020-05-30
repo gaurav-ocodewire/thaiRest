@@ -53,8 +53,7 @@
     font-family: sans-serif;
   }
   .title .price{
-    font-weight: 800;    
-    font-weight: 800;
+   
     color: #1F1F1F;
     font-size: 20px;
   }
@@ -92,8 +91,19 @@
     width: 35%;
   }
 
+  .btn-area {
+    display: flex;
+    align-items: center;
+  }
+
   @media screen and (max-width: 992px) {
-    
+    .btn-area {
+        flex-direction: column !important;
+        margin-bottom: 10px !important;
+      }
+    .del-sec{
+        width:100% !important
+    }
     .text-block{
         text-align: center;
          padding: 0% 15% 0 15%;

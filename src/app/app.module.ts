@@ -12,6 +12,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { NguCarouselModule } from '@ngu/carousel';
 import { HeaderComponent } from './components/header/header.component';
 import { RecentOrderSectionComponent } from './components/recent-order-section/recent-order-section.component';
+import { OurRestaurantsComponent } from './components/our-restaurants/our-restaurants.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { RecentOrderSectionComponent } from './components/recent-order-section/r
     HomePageComponent,
     SliderComponent,
     HeaderComponent,
-    RecentOrderSectionComponent
+    RecentOrderSectionComponent,
+    OurRestaurantsComponent
   ],
   imports: [
     BrowserModule,
