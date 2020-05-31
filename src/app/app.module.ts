@@ -13,6 +13,9 @@ import { NguCarouselModule } from '@ngu/carousel';
 import { HeaderComponent } from './components/header/header.component';
 import { RecentOrderSectionComponent } from './components/recent-order-section/recent-order-section.component';
 import { OurRestaurantsComponent } from './components/our-restaurants/our-restaurants.component';
+import { OrederItemCardComponent } from './components/oreder-item-card/oreder-item-card.component';
+import { RestaurantSliderComponent } from './components/restaurant-slider/restaurant-slider.component';
+import { RestaurantCardComponent } from './components/restaurant-card/restaurant-card.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { OurRestaurantsComponent } from './components/our-restaurants/our-restau
     SliderComponent,
     HeaderComponent,
     RecentOrderSectionComponent,
-    OurRestaurantsComponent
+    OurRestaurantsComponent,
+    OrederItemCardComponent,
+    RestaurantSliderComponent,
+    RestaurantCardComponent
   ],
   imports: [
     BrowserModule,

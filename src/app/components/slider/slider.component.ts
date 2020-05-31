@@ -8,7 +8,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 })
 export class SliderComponent implements OnInit {
   
-	arr = [1,2,3]
+	arr = [1,2,3,4]
 	
   constructor() {  
    

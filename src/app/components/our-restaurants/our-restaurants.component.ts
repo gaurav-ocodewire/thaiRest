@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-our-restaurants',
@@ -7,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OurRestaurantsComponent implements OnInit {
   dummyArray = [0,1,2,3]
+  header: any;
+  @Input() data;
 
   constructor() { }
 
   ngOnInit(): void {
+    this.header = this.data;
   }
 
 }

@@ -29,7 +29,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    font-size: 12px;
+    font-size: 11px;
     color: #e60808;
     width: 111px;
     font-weight: 600;
@@ -53,19 +53,18 @@
     font-family: sans-serif;
   }
   .title .price{
-    font-weight: 800;    
-    font-weight: 800;
+   
     color: #1F1F1F;
     font-size: 20px;
   }
   
-  .card .del-sec{
+  .del-sec{
     text-align: left;
     margin: 10px;
     background: #FEEF00;
     color: #B73819;
     width: 144px;
-    font-size: 14px !important;
+    font-size: 12px;
     height: 26px;
     font-family: inherit;
     display: flex;
@@ -92,8 +91,19 @@
     width: 35%;
   }
 
+  .btn-area {
+    display: flex;
+    align-items: center;
+  }
+
   @media screen and (max-width: 992px) {
-    
+    .btn-area {
+        flex-direction: column !important;
+        margin-bottom: 10px !important;
+      }
+    .del-sec{
+        width:100% !important
+    }
     .text-block{
         text-align: center;
          padding: 0% 15% 0 15%;

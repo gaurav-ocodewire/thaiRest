@@ -1,38 +1,8 @@
 <div class="container-recent-order " >
     
-    <div class="text-block" >
+    <div class="text-block" *ngIf="header">
 TOP LOCAL RESTAURANTS
 </div>
 </div>
-<div class=" row " >
-<div class="col-lg-3 row-col" *ngFor="let item of dummyArray">
-    <div class="card">
-        <img src="assets/img/01_Home_26.jpg" alt="Denim Jeans" style="width:100%">
-        <div class="title" style="    display: flex;
-        align-items: baseline;padding-bottom: 0;">
-            <label>MC DONALD</label>
-            <label class="price" style="display: flex;
-            align-items: center;
-            justify-content: space-evenly;
-            width: 46px;
-            height: 10px;
-        "><img src="assets/Home/ystar.png" /> 3.0</label>
 
-        </div>
-        <p Style="color: #929292;
-        font-size: 18px;
-        padding-left: 10px;">Fastfood, Meals, hot Snacks</p>
-        <div  class="btn-area">
-            <div class="del-sec ">
-                <img src="assets/Home/ico_motorbike.png" alt="Denim Jeans">  FREE DELIVERY
-            </div>
-            <div class="order-btn ">
-               SEE MENU
-            </div>
-        </div>
-      
-
-    </div>
-</div>
-
-</div>
+<app-restaurant-slider></app-restaurant-slider>

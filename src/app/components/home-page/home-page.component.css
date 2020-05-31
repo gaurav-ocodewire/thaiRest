@@ -140,6 +140,8 @@
     justify-content: center;
 }
   
-.red-bg app-our-restaurants .container-recent-order{
-  display: none !important;
+
+.red-bg {
+  margin-top: 50px;
+  
 }
